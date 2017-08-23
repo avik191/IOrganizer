@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_frame_normal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:text="Title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/picNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:text="Title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+        android:id="@+id/yesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:gravity="center"
+        android:minHeight="52dp"
+        android:minWidth="64dp"
+        android:padding="8dp"
+        android:shadowColor="@color/transparent"
+        android:text="Yes"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nobtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:gravity="center"
+            android:minHeight="52dp"
+            android:minWidth="64dp"
+            android:padding="8dp"
+            android:layout_marginTop="-50dp"
+            android:shadowColor="@color/transparent"
+            android:text="Cancel"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

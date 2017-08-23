@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_frame_normal"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:text="Title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/albumNameEt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:hint="ex:- album1"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:gravity="center"
+            android:minHeight="52dp"
+            android:minWidth="64dp"
+            android:padding="8dp"
+            android:shadowColor="@color/transparent"
+            android:text="OK"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
